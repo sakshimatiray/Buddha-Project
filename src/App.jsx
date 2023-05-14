@@ -2,6 +2,9 @@
 import './App.css';
 import myhus from './ajnaani.gif';
 import asan from './aasan.gif';
+import the from'./thesis.jpg';
+import god from "./god.jpg";
+import eve from "./evidence.jpg"
 
 function App() {
   
@@ -15,7 +18,7 @@ function App() {
      <div className='img1'>
       
         
-     <img src="thesis.jpg" width="500vh"  height="500vh" />
+     <img src={the} width="500vh"  height="500vh" />
      <div>
      <h1>Thesis:</h1>
      <p>Buddhism is an amazing philosophy full of wisdom with great truths, however I believe Buddhists have lost the way of the Buddha and lack a real basis of impact. Effective Buddhism is a solution to those who seek to follow the Buddhist Path as Buddha Wanted. If Buddha was alive today, imagine the amount of change and impact he would be having.</p>
@@ -52,10 +55,10 @@ function App() {
 <br/> 4. To attain perfect enlightenment</h5>
 
       </div>
-      <img src="evidence.jpg"/>
+    <img src={eve}/>
      </div>
      <div className='img3'>
-     <img src="god.jpg" />
+     <img src={god} />
      <div>
     
      <h1>Reiterating The Message:</h1>
