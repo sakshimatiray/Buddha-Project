@@ -1,0 +1,32 @@
+
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .img1,.img2,.img3{
+  display:flex;
+  border: 5px solid black;
+  margin: 20px;
+  padding:  30px;
+ }
+ .first{
+  align-items: center;
+  text-align: center;
+ }
+ .main{
+  background-repeat: no-repeat;
+  background-size:  100vw 80vh;
+  position: sticky;
+ }
+ img{
+  border-radius: 15px;
+  padding: 30px;
+ }
+ .Maind{
+  background-color:grey;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
